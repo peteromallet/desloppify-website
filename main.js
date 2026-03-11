@@ -256,7 +256,7 @@ function renderMarkdownLight(md) {
 
 /* ─── Init ─── */
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
   drawRoughBorders();
   drawHeroDoodles();
   loadReleases();
