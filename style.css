@@ -135,12 +135,14 @@ section h2::after {
 /* ─── HERO ─── */
 #hero {
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   position: relative;
-  padding-top: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 }
 
 #hero-canvas {
@@ -246,6 +248,14 @@ section h2::after {
 }
 
 /* ─── HOW IT WORKS ─── */
+.how-desc {
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  max-width: 750px;
+  margin-bottom: 1.5rem;
+}
+
 .how-image-wrap {
   background: var(--card-bg);
   padding: 1.5rem;
